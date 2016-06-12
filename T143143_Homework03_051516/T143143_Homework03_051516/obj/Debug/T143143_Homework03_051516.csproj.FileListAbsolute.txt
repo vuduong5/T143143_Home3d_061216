@@ -1,0 +1,15 @@
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\bin\Debug\T143143_Homework03_051516.exe.config
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\bin\Debug\T143143_Homework03_051516.exe
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\bin\Debug\T143143_Homework03_051516.pdb
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.Form1.resources
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.Properties.Resources.resources
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.csproj.GenerateResource.Cache
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.exe
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.pdb
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\bin\Debug\EntityFramework.dll
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\bin\Debug\EntityFramework.xml
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.frmCaiDat.resources
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\Interop.SpeechLib.dll
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.csproj.ResolveComReference.cache
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.csprojResolveAssemblyReference.cache
+E:\hoc hanh\Object Oriented Programming and C#\Database C#\T143143_Homework03_051516\T143143_Homework03_051516\obj\Debug\T143143_Homework03_051516.frmImportFile.resources

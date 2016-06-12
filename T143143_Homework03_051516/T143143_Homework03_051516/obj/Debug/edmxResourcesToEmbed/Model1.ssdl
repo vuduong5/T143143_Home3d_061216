@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dataVocabularyModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'EC700A9FB41B1AC13AB35719A1BB2389_MMING AND C#\DATABASE C#\T143143_HOMEWORK03_051516\T143143_HOMEWORK03_051516\DATAVOCABULARY.MDF.dbo.Image' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Image">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="image" Type="image" />
+  </EntityType>
+  <EntityType Name="Word">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="word" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Pronounce" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Meaninng" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="explain EL" Type="varchar(max)" Nullable="false" />
+    <Property Name="explain VN" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Image_Word">
+    <End Role="Word" Type="Self.Word" Multiplicity="1" />
+    <End Role="Image" Type="Self.Image" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Word">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Image">
+        <PropertyRef Name="id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="dataVocabularyModelStoreContainer">
+    <EntitySet Name="Word" EntityType="Self.Word" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Image" EntityType="Self.Image" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Image].[id] AS [id], 
+[Image].[image] AS [image]
+FROM [dbo].[Image] AS [Image]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_Image_Word" Association="Self.FK_Image_Word">
+      <End Role="Word" EntitySet="Word" />
+      <End Role="Image" EntitySet="Image" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
